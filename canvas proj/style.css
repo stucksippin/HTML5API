@@ -1,0 +1,56 @@
+#app {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+HTML CSS JSResult Skip Results Iframe EDIT ON body {
+    font-family: Helvetica sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #222;
+    overflow: hidden;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.info {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px 15px;
+    color: #eee;
+    font-size: 13px;
+    background-color: rgba(0, 0, 0, .5);
+}
+
+.follow-cursor {
+    background-color: white;
+    display: block;
+    width: 24px;
+    height: 24px;
+    border: 1px solid black;
+    border-radius: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    position: absolute;
+    z-index: 999;
+    pointer-events: none;
+    transition: width 0.64s, height 0.64s, border-radius 0.64s, background 0.64s;
+}
+
+.follow-cursor_active {
+    height: 300px;
+    width: 300px;
+    border-width: 2px;
+
+}
